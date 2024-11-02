@@ -56,12 +56,21 @@ header ul li :hover {
   border-radius: 20px;
 }
 
-.trendin-section {
+.trending-section {
   padding: 2rem 6rem;
   display: flex;
   align-items: center;
 }
-.trendin-section p {
+
+#img-container {
+  display: flex;
+}
+
+#img-container img {
+  align-self: flex-start;
+}
+
+.trending-section p {
   padding-left: 10px;
   font-weight: bold;
   height: 300px;
@@ -69,7 +78,6 @@ header ul li :hover {
 
 .trending-items {
   display: flex;
-  align-items: flex-start;
 }
 
 .author {
